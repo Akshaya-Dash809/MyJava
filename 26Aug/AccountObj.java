@@ -19,7 +19,7 @@ public class AccountObj {
 		 acc.annualInterestRate = sc.nextDouble();
 		
 		System.out.println("Enter the  account created date : ");
-    	 acc.dateCreated = sc.next();
+    	        acc.dateCreated = sc.next();
 		
 		System.out.println("Enter the withdraw amount : ");
 		double withdrawAmount = sc.nextDouble();
