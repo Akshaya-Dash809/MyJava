@@ -1,7 +1,7 @@
 //2. WAP to input an array having 3 rows and 3 columns of type String.
 package lab_01Sep;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Array3_3 {
 
