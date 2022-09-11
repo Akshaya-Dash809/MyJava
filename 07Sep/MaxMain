@@ -9,7 +9,7 @@ class MaxMain {
 	@Test
 	void test() {
 		Max ob=new Max();
-		int arr[]= {60,30,70,10};
+		int arr[]= {30,60,70,50};
 		int actual=ob.maximum(arr);
 		int expected=70;
 		assertEquals(expected,actual);
