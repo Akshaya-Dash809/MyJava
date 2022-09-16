@@ -1,3 +1,5 @@
+//Write a program to find the first and the last occurence of the letter 'o'  in "Hello World".
+
 package lab_15Sep;
 import java.util.*;
 
