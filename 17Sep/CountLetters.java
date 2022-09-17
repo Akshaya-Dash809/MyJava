@@ -7,13 +7,13 @@ import java.io.IOException;
 public class CountLetters {
 	public static void main(String[] args) throws IOException{
 	FileInputStream fi=new FileInputStream("test.txt");
-	String s= fi.toString();
-	int count = 0;
-	for(int i = 0; i < s.length(); i++) {    
-        if(s.charAt(i) != ' ')    
-            count++; 
+	int i,count=0;
+	while((i=fi.read())!=-1) {
+		if(i!=' ') {
+		count=count+1;
+	}
 	}
     System.out.println("The no.s of letters in this file is  "+count);
-	fi.close();
+	
 }
 }
